@@ -1997,7 +1997,7 @@ var CoursesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = " <!-- start page title -->\n <div class=\"row\">\n  <div class=\"col-12\">\n     <div class=\"page-title-box d-flex align-items-center justify-content-between\">\n        <h4 class=\"mb-0 font-size-18\">Dashboard</h4>\n        <div class=\"page-title-right\">\n           <ol class=\"breadcrumb m-0\">\n              <li class=\"breadcrumb-item active\">Welcome to Dashboard</li>\n           </ol>\n        </div>\n     </div>\n  </div>\n</div>\n<!-- end page title -->\n<div class=\"row\">\n  <div class=\"col-xl-4\">\n     <div class=\"card overflow-hidden\">\n        <div class=\"bg-soft-primary\">\n           <div class=\"row\">\n              <div class=\"col-7\">\n                 <div class=\"text-primary p-3\">\n                    <h5 class=\"text-primary\">Welcome Back!</h5>\n                    <p>General Information</p>\n                 </div>\n              </div>\n              <div class=\"col-5 align-self-end\">\n                 <img src=\"assets/images/profile-img.png\" alt=\"\" class=\"img-fluid\">\n              </div>\n           </div>\n        </div>\n        <div class=\"card-body pt-0\">\n           <div class=\"row\">\n              <div class=\"col-sm-4\">\n                 <div class=\"avatar-md profile-user-wid mb-4\">\n                      <!--  -->\n                  <img [src]=\"_userService.UserData.img | imagen\" alt=\"\" class=\"img-thumbnail rounded-circle\">\n                 </div>\n                 <!--  -->\n                 <h5 class=\"font-size-15 text-truncate\">{{_userService.UserData.name}}</h5>\n                 <p class=\"text-muted mb-0 text-truncate\">Developer</p>\n              </div>\n              <div class=\"col-sm-8\">\n                 <div class=\"pt-4\">\n                    <div class=\"row\">\n                       <div class=\"col-6\">\n                          <h5 class=\"font-size-15\">125</h5>\n                          <p class=\"text-muted mb-0\">Projects</p>\n                       </div>\n                       <div class=\"col-6\">\n                          <h5 class=\"font-size-15\">$1245</h5>\n                          <p class=\"text-muted mb-0\">Revenue</p>\n                       </div>\n                    </div>\n                    <div class=\"mt-4\">\n                       <!-- [routerLink]=\"['/profile']\" -->\n                       <a style=\"color: #fff;\" [routerLink]=\"['/profile']\" class=\"btn btn-primary waves-effect waves-light btn-sm\">View Profile <i class=\"mdi mdi-arrow-right ml-1\"></i></a>\n                    </div>\n                 </div>\n              </div>\n           </div>\n        </div>\n     </div>\n\n     <div class=\"card\">\n      <div class=\"card-body\">\n         <h4 class=\"card-title mb-4\">Monthly Earnings</h4>\n         <div class=\"row\">\n            <div class=\"col-sm-6\">\n               <p class=\"text-muted\">This Month</p>\n               <h3>$34,252</h3>\n               <p class=\"text-muted\"><span class=\"text-success mr-2\"> 12% <i class=\"mdi mdi-arrow-up\"></i> </span> From previous period</p>\n               <div class=\"mt-4\">\n                  <!-- <a href=\"\" class=\"btn btn-primary waves-effect waves-light btn-sm\">View More <i class=\"mdi mdi-arrow-right ml-1\"></i></a> -->\n               </div>\n            </div>\n            <div class=\"col-sm-6\">\n               <div class=\"mt-4 mt-sm-0\">\n         <apx-chart [fill]=\"options2.fill\" [chart]=\"options2.chart\" [colors]=\"options2.colors\" [series]=\"options2.series\" [labels]=\"options2.labels\"></apx-chart>\n    \n                \n               </div>\n            </div>\n         </div>\n         <p class=\"text-muted mb-0\">Praesent non elit eget odio vestibul.</p>\n      </div>\n    </div>\n\n  </div>\n  <div class=\"col-xl-8\">\n\n   <app-card-mini></app-card-mini>  \n\n     <!-- end row -->\n\n     <app-grafi-details></app-grafi-details>\n\n  </div>\n</div>\n<!-- end row -->\n<div class=\"row\">\n  <div class=\"col-xl-4\">\n     <div class=\"card\">\n      <app-social-source></app-social-source>\n     </div>\n  </div>\n  <div class=\"col-xl-4\">\n     <div class=\"card\">\n      <app-activity></app-activity>\n     </div>\n  </div>\n  <div class=\"col-xl-4\">\n     <div class=\"card\">\n      <app-top-cities></app-top-cities>\n     </div>\n  </div>\n</div>\n<!-- end row -->\n<div class=\"row\">\n  <div class=\"col-lg-12\">\n     <div class=\"card\">\n        <div class=\"card-body\">\n           <h4 class=\"card-title mb-4\">Latest Transactions</h4>\n           <div class=\"table-responsive\">\n            <latest-transaction></latest-transaction>\n           </div>\n           <!-- end table-responsive -->\n        </div>\n     </div>\n  </div>\n</div>\n<!-- end row -->"
+module.exports = " <!-- start page title -->\n <div class=\"row\">\n \t<div class=\"col-12\">\n \t\t<div class=\"page-title-box d-flex align-items-center justify-content-between\">\n \t\t\t<h4 class=\"mb-0 font-size-18\">Dashboard</h4>\n \t\t\t<div class=\"page-title-right\">\n \t\t\t\t<ol class=\"breadcrumb m-0\">\n \t\t\t\t\t<li class=\"breadcrumb-item active\">Welcome to Dashboard</li>\n \t\t\t\t</ol>\n \t\t\t</div>\n \t\t</div>\n \t</div>\n </div>\n <!-- end page title -->\n <div class=\"row\">\n \t<div class=\"col-xl-4\">\n \t\t<div class=\"card overflow-hidden\">\n \t\t\t<div class=\"bg-soft-primary\">\n \t\t\t\t<div class=\"row\">\n \t\t\t\t\t<div class=\"col-7\">\n \t\t\t\t\t\t<div class=\"text-primary p-3\">\n \t\t\t\t\t\t\t<h5 class=\"text-primary\">Welcome Back!</h5>\n \t\t\t\t\t\t\t<p>General Information</p>\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-5 align-self-end\">\n \t\t\t\t\t\t<img src=\"assets/images/profile-img.png\" alt=\"\" class=\"img-fluid\">\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t\t<div class=\"card-body pt-0\">\n \t\t\t\t<div class=\"row\">\n \t\t\t\t\t<div class=\"col-sm-4\">\n \t\t\t\t\t\t<div class=\"avatar-md profile-user-wid mb-4\">\n \t\t\t\t\t\t\t<!--  -->\n \t\t\t\t\t\t\t<img [src]=\"_userService.UserData.img | imagen\" alt=\"\" class=\"img-thumbnail rounded-circle\">\n \t\t\t\t\t\t</div>\n \t\t\t\t\t\t<!--  -->\n \t\t\t\t\t\t<h5 class=\"font-size-15 text-truncate\">{{_userService.UserData.name}}</h5>\n \t\t\t\t\t\t<p class=\"text-muted mb-0 text-truncate\">Developer</p>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-8\">\n \t\t\t\t\t\t<div class=\"pt-4\">\n \t\t\t\t\t\t\t<div class=\"row\">\n \t\t\t\t\t\t\t\t<div class=\"col-6\">\n \t\t\t\t\t\t\t\t\t<h5 class=\"font-size-15\">125</h5>\n \t\t\t\t\t\t\t\t\t<p class=\"text-muted mb-0\">Projects</p>\n \t\t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t\t\t<div class=\"col-6\">\n \t\t\t\t\t\t\t\t\t<h5 class=\"font-size-15\">$1245</h5>\n \t\t\t\t\t\t\t\t\t<p class=\"text-muted mb-0\">Revenue</p>\n \t\t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t\t<div class=\"mt-4\">\n \t\t\t\t\t\t\t\t<!-- [routerLink]=\"['/profile']\" -->\n \t\t\t\t\t\t\t\t<a style=\"color: #fff;\" [routerLink]=\"['/profile']\" class=\"btn btn-primary waves-effect waves-light btn-sm\">View Profile <i class=\"mdi mdi-arrow-right ml-1\"></i></a>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</div>\n\n \t\t<div class=\"card\">\n \t\t\t<div class=\"card-body\">\n \t\t\t\t<h4 class=\"card-title mb-4\">Monthly Earnings</h4>\n \t\t\t\t<div class=\"row\">\n \t\t\t\t\t<div class=\"col-sm-6\">\n \t\t\t\t\t\t<p class=\"text-muted\">This Month</p>\n \t\t\t\t\t\t<h3>$34,252</h3>\n \t\t\t\t\t\t<p class=\"text-muted\"><span class=\"text-success mr-2\"> 12% <i class=\"mdi mdi-arrow-up\"></i> </span> From previous period</p>\n \t\t\t\t\t\t<div class=\"mt-4\">\n \t\t\t\t\t\t\t<!-- <a href=\"\" class=\"btn btn-primary waves-effect waves-light btn-sm\">View More <i class=\"mdi mdi-arrow-right ml-1\"></i></a> -->\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n \t\t\t\t\t\t<div class=\"mt-4 mt-sm-0\">\n \t\t\t\t\t\t\t<apx-chart\n \t\t\t\t\t\t\t[series]=\"chartOptions.series\"\n \t\t\t\t\t\t\t[chart]=\"chartOptions.chart\"\n \t\t\t\t\t\t\t[plotOptions]=\"chartOptions.plotOptions\"\n \t\t\t\t\t\t\t[labels]=\"chartOptions.labels\"\n \t\t\t\t\t\t\t[fill]=\"chartOptions.fill\"\n \t\t\t\t\t\t\t[stroke]=\"chartOptions.stroke\"\n \t\t\t\t\t\t\t[colors]=\"chartOptions.colors\"\n \t\t\t\t\t\t\t></apx-chart>\n\n\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t\t<p class=\"text-muted mb-0\">Praesent non elit eget odio vestibul.</p>\n \t\t\t</div>\n \t\t</div>\n\n \t</div>\n \t<div class=\"col-xl-8\">\n\n \t\t<app-card-mini></app-card-mini>  \n\n \t\t<!-- end row -->\n\n \t\t<app-grafi-details></app-grafi-details>\n\n \t</div>\n </div>\n <!-- end row -->\n <div class=\"row\">\n \t<div class=\"col-xl-4\">\n \t\t<div class=\"card\">\n \t\t\t<app-social-source></app-social-source>\n \t\t</div>\n \t</div>\n \t<div class=\"col-xl-4\">\n \t\t<div class=\"card\">\n \t\t\t<app-activity></app-activity>\n \t\t</div>\n \t</div>\n \t<div class=\"col-xl-4\">\n \t\t<div class=\"card\">\n \t\t\t<app-top-cities></app-top-cities>\n \t\t</div>\n \t</div>\n </div>\n <!-- end row -->\n <div class=\"row\">\n \t<div class=\"col-lg-12\">\n \t\t<div class=\"card\">\n \t\t\t<div class=\"card-body\">\n \t\t\t\t<h4 class=\"card-title mb-4\">Latest Transactions</h4>\n \t\t\t\t<div class=\"table-responsive\">\n \t\t\t\t\t<latest-transaction></latest-transaction>\n \t\t\t\t</div>\n \t\t\t\t<!-- end table-responsive -->\n \t\t\t</div>\n \t\t</div>\n \t</div>\n </div>\n<!-- end row -->"
 
 /***/ }),
 
@@ -2020,52 +2020,53 @@ __webpack_require__.r(__webpack_exports__);
 var DashboardComponent = /** @class */ (function () {
     function DashboardComponent(_userService) {
         this._userService = _userService;
-    }
-    DashboardComponent.prototype.ngOnInit = function () {
-        this.options1 = {
-            chart: { height: 359, type: 'bar', stacked: !0, toolbar: { show: !1 }, zoom: { enabled: !0 } },
-            plotOptions: {
-                bar: {
-                    horizontal: true,
-                }
+        this.chartOptions = {
+            series: [67],
+            chart: {
+                width: '100%',
+                type: "radialBar",
+                offsetY: -10
             },
-            dataLabels: {
-                enabled: true
-            },
-            series: [
-                { name: 'Rejected', data: [44, 55, 41, 67, 22, 43, 36, 52, 24, 18, 36, 48] },
-                { name: 'Pending', data: [13, 23, 20, 8, 13, 27, 18, 22, 10, 16, 24, 22] },
-                { name: 'Approved', data: [11, 17, 15, 15, 21, 14, 11, 18, 17, 12, 20, 18] },
-            ],
-            xaxis: { categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] },
-            colors: ['#8b0013', '#f1b44c', '#34c38f'],
-            legend: { position: 'bottom' },
-        };
-        this.options2 = {
-            chart: { height: 200, type: 'radialBar', offsetY: -10 },
             plotOptions: {
                 radialBar: {
                     startAngle: -135,
                     endAngle: 135,
                     dataLabels: {
-                        name: { fontSize: '13px', color: void 0, offsetY: 60 },
+                        name: {
+                            fontSize: "12px",
+                            color: '#8b0013',
+                            offsetY: 60
+                        },
                         value: {
                             offsetY: 22,
-                            fontSize: '16px',
-                            color: void 0,
-                            formatter: function (e) {
-                                return e + '%';
-                            },
-                        },
-                    },
-                },
+                            fontSize: "18px",
+                            color: '#8b0013',
+                            formatter: function (val) {
+                                return val + "%";
+                            }
+                        }
+                    }
+                }
             },
             colors: ['#8b0013'],
-            fill: { type: 'gradient', gradient: { shade: 'dark', shadeIntensity: 0.15, inverseColors: !1, opacityFrom: 1, opacityTo: 1, stops: [0, 50, 65, 91] } },
-            stroke: { dashArray: 4 },
-            series: [67],
-            labels: ['Rejected'],
+            fill: {
+                type: "gradient",
+                gradient: {
+                    shade: "dark",
+                    shadeIntensity: 0.15,
+                    inverseColors: false,
+                    opacityFrom: 1,
+                    opacityTo: 1,
+                    stops: [0, 50, 65, 91]
+                }
+            },
+            stroke: {
+                dashArray: 4
+            },
+            labels: ["Rejected"]
         };
+    }
+    DashboardComponent.prototype.ngOnInit = function () {
     };
     DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -2616,7 +2617,7 @@ var PAGES_ROUTES = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "  <div class=\"row\">\n    <div class=\"col-12 text-center\">\n      \n        \n          <img src=\"assets/images/maintenance.png\" style=\"width: 19%;\" alt=\"\">\n              \n    </div>\n  </div>\n"
+module.exports = "<div class=\"row\">\n\t<div class=\"col-12\">\n\t\t<div class=\"page-title-box d-flex align-items-center justify-content-between\">\n\t\t\t<h4 class=\"mb-0 font-size-18\">Reports</h4>\n\t\t\t<div class=\"page-title-right\">\n\t\t\t\t<ol class=\"breadcrumb m-0\">\n\n\n\t\t\t\t</ol>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n\n\n<div class=\"row\">\n\t<div class=\"col-12\">\n\t\t<div class=\"card\">\n\t\t\t<div class=\"card-body\">\n\t\t\t\t<apx-chart [series]=\"chartOptions.series\" [dataLabels]=\"chartOptions.stroke\" [stroke]=\"chartOptions.stroke\" [chart]=\"chartOptions.chart\" [xaxis]=\"chartOptions.xaxis\" [colors]=\"chartOptions.colors\" [tooltip]=\"chartOptions.tooltip\"></apx-chart>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"col-12\">\n\t\t<div class=\"d-flex align-items-center justify-content-between\">\n\t\t\t<p class=\"font-size-18\">Monthly Summary</p>\n\t\t\t<div class=\"page-title-right\">\n\t\t\t\t<ol class=\"breadcrumb m-0\" style=\"background-color:#fff0\">\n\t\t\t\t\t<li class=\"active btn-personal\">\n\t\t\t\t\t\t<a  class=\"btn btn-outline-primary waves-effect waves-light \"\n\t\t\t\t\t\tstyle=\" float: right; \"><i class=\"fas fa-file-excel\"></i> &nbsp;Export Excel</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"active btn-personal\">\n\t\t\t\t\t\t<a  class=\"btn btn-outline-primary waves-effect waves-light \"\n\t\t\t\t\t\tstyle=\" float: right\"><i class=\"fas fa-file-pdf\"></i>&nbsp;Export PDF</a>\n\t\t\t\t\t</li>\n\n\t\t\t\t</ol>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\n\t<div class=\"col-12\">\n\t\t<div class=\"card\">\n\t\t\t<div class=\"card-body\">\n\n\t\t\t\t<table  id=\"datatable-buttons\" class=\"table-my\">\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"th-tr\">\n\t\t\t\t\t\t\t<th class=\"th-my\" >Time Period</th>\n\t\t\t\t\t\t\t<th class=\"th-my\" >Pre-tax Amount</th>\n\t\t\t\t\t\t\t<th class=\"th-my\" >Withholding Tax</th>\n\t\t\t\t\t\t\t<th class=\"th-my\" >Net Earnings</th>\n\t\t\t\t\t\t\t<th class=\"th-my\" >Expected Payment Date</th>\n\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\n\n\t\t\t\t\t<tbody>\n\t\t\t\t\t\t<tr class=\"tr-my\" >\n\n\t\t\t\t\t\t\t<td class=\"td-my\" >\n\t\t\t\t\t\t\t\t<a href=\"\">Feb 2020</a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"td-my\" >\n\t\t\t\t\t\t\t\t<span>$ 75.94</span>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"td-my\" >\n\t\t\t\t\t\t\t\t<span>$ 15.94</span>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"td-my\" >\n\t\t\t\t\t\t\t\t<span>$ 60.11</span>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"td-my\" >\n\t\t\t\t\t\t\t\t<span>$ Abr 08, 2020</span>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t</div>\n\t</div>  \n\n\n\n\n\n\t<div class=\"col-8\">\n\t\t<div class=\"card\">\n\t\t\t<div class=\"card-header row\" style=\"background-color: #fff0\">\n\t\t\t\t<div class=\"col-6\"><h5>User Activity</h5></div>\n\t\t\t\t<div class=\"col-6\"><button class=\"btn btn-outline-primary float-right\">Learn More</button></div>\n\t\t\t</div> \n\t\t\t<div class=\"card-body row\" style=\"padding-top: 0\">\n\t\t\t\t<div class=\"col-6\">\n\t\t\t\t\t<strong>FROM</strong>\n\t\t\t\t\t<div class=\"input-group\">\n\t\t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"mm/dd/yyyy\" data-provide=\"datepicker\">\n\t\t\t\t\t\t<div class=\"input-group-append\">\n\t\t\t\t\t\t\t<span class=\"input-group-text\"><i class=\"mdi mdi-calendar\"></i></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-12\">\n\t\t\t\t\t<!-- Nav tabs -->\n\t\t\t\t\t<ul class=\"nav nav-tabs nav-tabs-custom nav-justified\" role=\"tablist\">\n\t\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t\t<a style=\"padding-left: 10px\" class=\"nav-link\" data-toggle=\"tab\" href=\"#Activity_Summary\" role=\"tab\">\n\t\t\t\t\t\t\t\t<span class=\"d-block d-sm-none\"><i class=\"fas fa-home\"></i></span>\n\t\t\t\t\t\t\t\t<span class=\"d-none float-left d-sm-block\">Activity Summary</span> \n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t\t<a class=\"nav-link active\" style=\"padding-right: 0px;padding-left: 0px;\" data-toggle=\"tab\" href=\"#profile1\" role=\"tab\">\n\t\t\t\t\t\t\t\t<span class=\"d-block d-sm-none\"><i class=\"far fa-user\"></i></span>\n\t\t\t\t\t\t\t\t<span class=\"d-none d-sm-block\">Export Usar Activity Report</span> \n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t\t<a class=\"nav-link\" style=\"padding-right: 26px\" data-toggle=\"tab\" href=\"#messages1\" role=\"tab\">\n\t\t\t\t\t\t\t\t<span class=\"d-block d-sm-none\"><i class=\"far fa-envelope\"></i></span>\n\t\t\t\t\t\t\t\t<span  class=\"d-none float-right d-sm-block\">Activity User Basic</span>   \n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\n\t\t\t\t\t<!-- Tab panes -->\n\t\t\t\t\t<div class=\"tab-content p-3 text-muted\">\n\t\t\t\t\t\t<div class=\"tab-pane \" id=\"Activity_Summary\" role=\"tabpanel\">\n\t\t\t\t\t\t\t<p class=\"mb-0\">\n\t\t\t\t\t\t\t\tRaw denim you probably haven't heard of them jean shorts Austin.\n\t\t\t\t\t\t\t\tNesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache\n\t\t\t\t\t\t\t\tcliche tempor, williamsburg carles vegan helvetica. Reprehenderit\n\t\t\t\t\t\t\t\tbutcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi,\n\t\t\t\t\t\t\t\tqui irure terry richardson ex squid. Aliquip placeat salvia cillum\n\t\t\t\t\t\t\t\tiphone. Seitan aliquip quis cardigan american apparel, butcher\n\t\t\t\t\t\t\t\tvoluptate nisi qui.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tab-pane active\" id=\"profile1\" role=\"tabpanel\">\n\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"col-8 row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6\" style=\"margin-bottom: 13px;\"><strong>Total Activity</strong> <br>\n\t\t\t\t\t\t\t\t\t\t<a style=\"font-size: 19px;color: #8b0013;\">7.01 hours</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6\"><strong>Avg Per User</strong>\n\t\t\t\t\t\t\t\t\t\t<a style=\"font-size: 19px;color: #8b0013;\"><br>0.39 hours</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6\"><strong>Avg Per Active User</strong>\n\t\t\t\t\t\t\t\t\t\t<a style=\"font-size: 19px;color: #8b0013;\"><br>0.5 hours</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6\"><strong>Top 10% User <br> (Avg)</strong>\n\t\t\t\t\t\t\t\t\t\t<a style=\"font-size: 19px;color: #8b0013;\"><br>27 hours</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-4 float-right\" style=\"padding: 0 0 0 0\">\n\t\t\t\t\t\t\t\t\t<apx-chart \n\t\t\t\t\t\t\t\t\t[series]=\"chartOptions1.series\"  \n\t\t\t\t\t\t\t\t\t[chart]=\"chartOptions1.chart\"\n\t\t\t\t\t\t\t\t\t[labels]=\"chartOptions1.labels\"\n\t\t\t\t\t\t\t\t\t[colors]=\"chartOptions1.colors\"\n\t\t\t\t\t\t\t\t\t></apx-chart>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tab-pane\" id=\"messages1\" role=\"tabpanel\">\n\t\t\t\t\t\t\t<p class=\"mb-0\">\n\t\t\t\t\t\t\t\tEtsy mixtape wayfarers, ethical wes anderson tofu before they\n\t\t\t\t\t\t\t\tsold out mcsweeney's organic lomo retro fanny pack lo-fi\n\t\t\t\t\t\t\t\tfarm-to-table readymade. Messenger bag gentrify pitchfork\n\t\t\t\t\t\t\t\ttattooed craft beer, iphone skateboard locavore carles etsy\n\t\t\t\t\t\t\t\tsalvia banksy hoodie helvetica. DIY synth PBR banksy irony.\n\t\t\t\t\t\t\t\tLeggings gentrify squid 8-bit cred pitchfork. Williamsburg banh\n\t\t\t\t\t\t\t\tmi whatever gluten-free carles.\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"col-4\">\n\t\t<div class=\"card\">\n\t\t\t<div class=\"card-body\">\n\t\t\t\t<apx-chart \n\t\t\t\t[series]=\"Options1.series\"  \n\t\t\t\t[chart]=\"Options1.chart\"\n\t\t\t\t[labels]=\"Options1.labels\"\n\t\t\t\t[colors]=\"Options1.colors\"\n\t\t\t\t></apx-chart>\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\n\n\n\n\n\n</div>\n\n\n\n\n<!-- \n  <div class=\"col-12 text-center\">\n\n\n\t<img src=\"assets/images/maintenance.png\" style=\"width: 19%;\" alt=\"\">\n\n  </div> -->"
 
 /***/ }),
 
@@ -2632,19 +2633,164 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReportComponent", function() { return ReportComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _service_index_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/index.service */ "./src/app/service/index.service.ts");
+
 
 
 var ReportComponent = /** @class */ (function () {
-    function ReportComponent() {
+    /*_____________________________________________________________________*/
+    function ReportComponent(ip) {
+        this.ip = ip;
+        this.chartOptions = {
+            series: [
+                {
+                    name: 'series1',
+                    data: [31, 40, 28, 51, 42, 109, 100]
+                },
+                {
+                    name: 'series2',
+                    data: [11, 32, 45, 32, 34, 52, 41]
+                }
+            ],
+            chart: {
+                height: 350,
+                type: 'area'
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            xaxis: {
+                type: 'datetime',
+                categories: [
+                    '2018-09-19T00:00:00.000Z',
+                    '2018-09-19T01:30:00.000Z',
+                    '2018-09-19T02:30:00.000Z',
+                    '2018-09-19T03:30:00.000Z',
+                    '2018-09-19T04:30:00.000Z',
+                    '2018-09-19T05:30:00.000Z',
+                    '2018-09-19T06:30:00.000Z'
+                ]
+            },
+            colors: ['#8b0013', '#c57614',],
+            tooltip: {
+                x: {
+                    format: 'dd/MM/yy HH:mm'
+                }
+            }
+        };
+        this.chartOptions1 = {
+            series: [75, 15],
+            chart: {
+                width: '100%',
+                type: 'pie'
+            },
+            labels: [
+                'Monday',
+                'Tuesday',
+            ],
+            theme: {
+                monochrome: {
+                    enabled: true
+                }
+            },
+            colors: ['#8b0013', 'rgba(141, 32, 46, 0.82)'],
+            title: {
+                text: 'Number of leads'
+            },
+            responsive: [
+                {
+                    breakpoint: 480,
+                    options: {
+                        chart: {
+                            width: 200
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            ]
+        };
+        /*_____________________________________________________________________*/
+        this.Options1 = {
+            series: [44, 55],
+            chart: {
+                type: 'donut',
+                width: '70%'
+            },
+            labels: ['Team A', 'Team B',],
+            colors: ['#8b0013', 'rgba(141, 32, 46, 0.82)'],
+            responsive: [
+                {
+                    breakpoint: 380,
+                    options: {
+                        chart: {
+                            width: 10
+                        },
+                    }
+                }
+            ]
+        };
+        /*_____________________________________________________________________*/
+        this.Options2 = {
+            series: [44, 55, 13, 43, 22],
+            chart: {
+                type: 'donut'
+            },
+            labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+            colors: ['#8b0013', 'rgba(141, 32, 46, 0.82)',],
+            responsive: [
+                {
+                    breakpoint: 480,
+                    options: {
+                        chart: {
+                            width: 200
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            ]
+        };
+        /*_____________________________________________________________________*/
+        this.Options3 = {
+            series: [44, 55, 13, 43, 22],
+            chart: {
+                type: 'donut'
+            },
+            labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+            colors: ['#8b0013', 'rgba(141, 32, 46, 0.82)',],
+            responsive: [
+                {
+                    breakpoint: 480,
+                    options: {
+                        chart: {
+                            width: 200
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            ]
+        };
     }
     ReportComponent.prototype.ngOnInit = function () {
+        this.ip.getIpUser().subscribe(function (resp) {
+            console.log(resp);
+        });
+        // this.chartOptions.series = {name: 'event4',data: [3, 4, 2, 5, 4, 10, 90]};
     };
     ReportComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-report',
             template: __webpack_require__(/*! ./report.component.html */ "./src/app/pages/report/report.component.html")
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_service_index_service__WEBPACK_IMPORTED_MODULE_2__["MenuService"]])
     ], ReportComponent);
     return ReportComponent;
 }());
@@ -3722,13 +3868,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+
 
 
 
 
 var MenuService = /** @class */ (function () {
-    function MenuService(router) {
+    function MenuService(router, http) {
         this.router = router;
+        this.http = http;
         this.menu = [
             { name: 'Dashboard', iconclass: 'ri-home-7-fill', router: 'dashboard' },
             { name: 'Categories', iconclass: 'ri-git-merge-line', router: 'category' },
@@ -3771,11 +3920,16 @@ var MenuService = /** @class */ (function () {
         var year = a.getFullYear();
         return month + "/" + day + "/" + year;
     };
+    MenuService.prototype.getIpUser = function () {
+        return this.http.get('http://ip-api.com/json/').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (resp) {
+            return resp;
+        }));
+    };
     MenuService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root'
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]])
     ], MenuService);
     return MenuService;
 }());
@@ -4678,7 +4832,7 @@ var SESSION_ROUTES = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Footer -->\n<footer class=\"page-footer font-small stylish-color-dark pt-4\">\n\n\t<!-- Footer Links -->\n\t<div class=\"container text-center text-md-left\">\n\n\t\t<!-- Grid row -->\n\t\t<div class=\"row\">\n\n\t\t\t<!-- Grid column -->\n\n\t\t\t<!-- Grid column -->\n\n\t\t\t<hr class=\"clearfix w-100 d-md-none\">\n\n\t\t\t<!-- Grid column -->\n\t\t\t<div class=\"col-md-2 mx-auto\">\n\n\t\t\t\t<!-- Links -->\n\t\t\t\t<h5 class=\"font-weight-bold text-uppercase mt-3 mb-4\">Links</h5>\n\n\t\t\t\t<ul class=\"list-unstyled\">\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 1</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 2</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 3</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 4</a>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\n\t\t\t</div>\n\t\t\t<!-- Grid column -->\n\n\t\t\t<hr class=\"clearfix w-100 d-md-none\">\n\n\t\t\t<!-- Grid column -->\n\t\t\t<div class=\"col-md-2 mx-auto\">\n\n\t\t\t\t<!-- Links -->\n\t\t\t\t<h5 class=\"font-weight-bold text-uppercase mt-3 mb-4\">Links</h5>\n\n\t\t\t\t<ul class=\"list-unstyled\">\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 1</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 2</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 3</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 4</a>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\n\t\t\t</div>\n\t\t\t<!-- Grid column -->\n\n\t\t\t<hr class=\"clearfix w-100 d-md-none\">\n\n\t\t\t<!-- Grid column -->\n\t\t\t<div class=\"col-md-2 mx-auto\">\n\n\t\t\t\t<!-- Links -->\n\t\t\t\t<h5 class=\"font-weight-bold text-uppercase mt-3 mb-4\">Links</h5>\n\n\t\t\t\t<ul class=\"list-unstyled\">\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 1</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 2</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 3</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=\"#!\">Link 4</a>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\n\t\t\t</div>\n\t\t\t<!-- Grid column -->\n\t\t\t<div class=\"col-md-4 mx-auto\">\n\t\t\t\t<div class=\"btn-group mr-1 mt-2 float-right\">\n\t\t\t\t\t<button type=\"button\" class=\"btn btn-outline-primary dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">English</button>\n\t\t\t\t\t<div class=\"dropdown-menu\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">English</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">French</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">German</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Hindi</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Hungarian</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Indonesia</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Italiano</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Japanese</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Portuguese</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Russia</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Russian</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Slovenski</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Spanish</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Telugu</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Turkish</a>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\n\t\t\t</div>\n\t\t</div>\n\t\t<!-- Grid row -->\n\n\t</div>\n\t<!-- Footer Links -->\n\n\t<hr>\n\t<div class=\"container text-center text-md-left\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-6 mx-auto\">\n\t\t\t\t<a class=\"float-left\">Top companies choose <a href=\"#\">SUCCESSU</a> to build in-demand career skills.</a>\n\t\t\t</div>\n\t\t\t<div class=\"col-md-6 mx-auto\">\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/1.png\" class=\"d-inline-block \" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/2.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/3.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/4.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/5.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t<!-- Call to action -->\n\n\t<!-- Call to action -->\n\n\t<hr>\n\n\t<!-- Social buttons -->\n\t<!-- Social buttons -->\n\n\t<!-- Copyright -->\n\t<div class=\"footer-copyright  text-md-left container\" style=\"background: #fff\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-4\"><img src=\"assets/logos/logocolor_1.png\" class=\"float-left\" style=\"width: 47%;\"></div>\n\t\t\t<div class=\"col-md-4 text-center\"><a href=\"https://mdbootstrap.com/\"> Copyright 2020 SuccessU All Rights Reserved.</a></div>\n\t\t\t<div class=\"col-md-4\">\n\t\t\t\t<a class=\"float-right\" style=\"margin-left: 10px\" href=\"\">Privacy policy</a>\n\t\t<a class=\"float-right\" href=\"\">Terms and condition</a>\n\t\t\t</div>\n\n\t\t</div>\n\n\t\t\n\n\t\t\n\t\t\n\n\t</div>\n\t<!-- Copyright -->\n\n</footer>\n<!-- Footer -->"
+module.exports = "<!-- Footer -->\n<footer class=\"page-footer font-small stylish-color-dark pt-4\">\n\n\t<!-- Footer Links -->\n\t<div class=\"container text-center text-md-left\">\n\n\t\t<!-- Grid row -->\n\t\t<div class=\"row\">\n\n\t\t\t<!-- Grid column -->\n\n\t\t\t<!-- Grid column -->\n\t\t\t<div class=\"col-md-3 mx-auto text-left pt-5\">\n            <h6 style=\"color: #89171B; padding-bottom: 10px\">Succes for Business</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n           \n        </div>\n        <div class=\"col-md-3 mx-auto text-left pt-5\" >\n           \n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n           \n        </div>\n        <div class=\"col-md-3 mx-auto text-left pt-5\" >\n         \n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n            <h6 style=\"color: #545A6C; padding-bottom: 10px\">Lorem ipsum dolor sit amet</h6>\n           \n        </div>\n\n          \n\n\t\t\t<!-- Grid column -->\n\t\t\t<div class=\"col-md-3 mx-auto pt-5\">\n\t\t\t\t<div class=\"btn-group mr-1 mt-2 float-right\">\n\t\t\t\t\t<button type=\"button\" class=\"btn btn-outline-primary dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">English</button>\n\t\t\t\t\t<div class=\"dropdown-menu\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">English</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">French</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">German</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Hindi</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Hungarian</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Indonesia</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Italiano</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Japanese</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Portuguese</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Russia</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Russian</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Slovenski</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Spanish</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Telugu</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"#\">Turkish</a>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\n\t\t\t</div>\n\t\t</div>\n\t\t<!-- Grid row -->\n\n\t</div>\n\t<!-- Footer Links -->\n\n\t<hr>\n\t<div class=\"container text-center text-md-left\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-6 mx-auto\">\n\t\t\t\t<a class=\"float-left\">Top companies choose <a href=\"#\">SUCCESSU</a> to build in-demand career skills.</a>\n\t\t\t</div>\n\t\t\t<div class=\"col-md-6 mx-auto\">\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/1.png\" class=\"d-inline-block \" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/2.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/3.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/4.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t<a href=\"\" class=\"float-right\"><img src=\"assets/logos/5.png\" class=\"d-inline-block\" width=\"100\"></a>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t<!-- Call to action -->\n\n\t<!-- Call to action -->\n\n\t<hr>\n\n\t<!-- Social buttons -->\n\t<!-- Social buttons -->\n\n\t<!-- Copyright -->\n\t<div class=\"footer-copyright  text-md-left container\" >\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-4\"><img src=\"assets/logos/logocolor_1.png\" class=\"float-left\" style=\"width: 47%;\"></div>\n\t\t\t<div class=\"col-md-4 text-center\"><a href=\"https://mdbootstrap.com/\"> Copyright 2020 SuccessU All Rights Reserved.</a></div>\n\t\t\t<div class=\"col-md-4\">\n\t\t\t\t<a class=\"float-right\" style=\"margin-left: 10px\" href=\"\">Privacy policy</a>\n\t\t<a class=\"float-right\" href=\"\">Terms and condition</a>\n\t\t\t</div>\n\n\t\t</div>\n\n\t\t\n\n\t\t\n\t\t\n\n\t</div>\n\t<!-- Copyright -->\n\n</footer>\n<!-- Footer -->"
 
 /***/ }),
 

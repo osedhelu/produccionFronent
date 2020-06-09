@@ -2107,7 +2107,7 @@ var DashboardComponent = /** @class */ (function () {
             stroke: {
                 dashArray: 4
             },
-            labels: ["Rejected"]
+            labels: ["Target"]
         };
     }
     DashboardComponent.prototype.ngOnInit = function () {

@@ -1274,7 +1274,7 @@ homepage styles
 */
 
 .home-banner-area{
-    background-image: url('../../assets1/images/home-banner.jpg');
+    background-image: url('../images/home-banner.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1282,7 +1282,7 @@ homepage styles
     color: #fff;
 }
 .home-banner-wrap{
-    max-width: 500px;
+    max-width: 505px !important;
 }
 .home-banner-wrap h2{
     font-size: 44px;
@@ -1317,17 +1317,8 @@ homepage styles
     background: #8b0013;
     color: #fff;
 }
-.home-fact-area{
-    background-color: #8b0013;
-    background: -webkit-linear-gradient(-45deg,#8b0013,#6e1a52);
-    background: -moz-linear-gradient(-45deg,#8b0013 0,#6e1a52 100%);
-    background: -ms-linear-gradient(-45deg,#8b0013 0,#6e1a52 100%);
-    background: -o-linear-gradient(-45deg,#8b0013 0,#6e1a52 100%);
-    background: linear-gradient(-45deg,#8b0013,#6e1a52);
-    color: #fff;
-    padding: 15px 0;
-    margin-bottom: 50px
-}
+.home-fact-area{background-color:#ec5252;background:-webkit-linear-gradient(-45deg,#C4132A,#8B0013);background:-moz-linear-gradient(-45deg,#C4132A 0,#8B0013 100%);background:-ms-linear-gradient(-45deg,#C4132A 0,#8B0013 100%);background:-o-linear-gradient(-45deg,#C4132A 0,#8B0013 100%);background:linear-gradient(-45deg,#C4132A,#8B0013)}
+
 .home-fact-box .text-box{
     padding: 10px 0 10px 63px;
 }

@@ -407,7 +407,9 @@ a.per-text-mute:hover {
 
 
 
-
+.myStyle i.filled {
+	color: #f5c85b
+}
 
 .rating i{
     color: #dedfe0;
@@ -2092,7 +2094,7 @@ course sidebar
 }
 .course-sidebar-text-box {
     padding: 0 30px;
-    padding-top: 72px;
+    padding-top: 21px;
 }
 
 .course-sidebar-text-box .price .current-price {

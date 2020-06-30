@@ -158,7 +158,7 @@ var margin = 10;
 
 if($('div').hasClass('course-sidebar')){
     var offsetTop = courseSidebar.offset().top + ( 193 - margin);
-        console.log("___", offsetTop)
+
 
 }
 
@@ -166,20 +166,34 @@ if($('div').hasClass('course-sidebar')){
 
     if(checkWindowWidth(1200)){
         var scrollTop = $(window).scrollTop();
+                // console.log("___", scrollTop)
         var offsetBottom = footer.offset().top - ( margin*2 + courseSidebar.height());
         if (scrollTop > offsetTop && courseSidebar.hasClass('natural')) {
             courseSidebar.removeClass('natural').addClass('fixed').css('top', margin);
             courseHeader.clone().addClass('duplicated').insertAfter(".course-header-area");
+            console.log("nuevo1")
+            $(".price").css("padding-top", "47px");
+
+            $(".course-oculto").css("display", "none");
         }
         if (offsetTop > scrollTop && courseSidebar.hasClass('fixed')) {
             courseSidebar.removeClass('fixed').addClass('natural').css('top', 'auto');
             $(".course-header-area.duplicated").remove();
+            $(".course-oculto").css("display", "block");
+            $(".price").css("padding-top", "0px");
+
+
+            console.log("nuevo2")
         }
         if (scrollTop > offsetBottom && courseSidebar.hasClass('fixed')) {
             courseSidebar.removeClass('fixed').addClass('bottom').css('top', (offsetBottom+margin) - 400);
+            console.log("nuevo3")
+        
         }
         if (offsetBottom > scrollTop && courseSidebar.hasClass('bottom')) {
             courseSidebar.removeClass('bottom').addClass('fixed').css('top', margin);
+            console.log("nuevo4")
+        
         }
     }
 
@@ -192,6 +206,9 @@ function activeVideo() {
 //# sourceMappingURL=plyr.js.map
     const player = new Plyr('#player');
 	
+}
+function scrollInicio() {
+	window.scrollTo(0, 0);
 }
 ;
 //# sourceMappingURL=scripts.js.map

@@ -174,12 +174,12 @@ if($('div').hasClass('course-sidebar')){
             console.log("nuevo1")
             $(".price").css("padding-top", "47px");
 
-            $(".course-oculto").css("display", "none");
+            $(".course-oculto").hide();
         }
         if (offsetTop > scrollTop && courseSidebar.hasClass('fixed')) {
             courseSidebar.removeClass('fixed').addClass('natural').css('top', 'auto');
             $(".course-header-area.duplicated").remove();
-            $(".course-oculto").css("display", "block");
+            $(".course-oculto").show();
             $(".price").css("padding-top", "0px");
 
 
